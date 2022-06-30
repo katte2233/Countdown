@@ -1,19 +1,18 @@
 {
-  "name": "Obj_player_1",
   "spriteId": {
     "name": "Spr_player_1",
     "path": "sprites/Spr_player_1/Spr_player_1.yy",
   },
+  "solid": false,
+  "visible": true,
+  "managed": true,
   "spriteMaskId": {
     "name": "Spr_player_1",
     "path": "sprites/Spr_player_1/Spr_player_1.yy",
   },
-  "visible": true,
-  "solid": false,
   "persistent": false,
-  "physicsObject": false,
-  "managed": true,
   "parentObjectId": null,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -25,14 +24,22 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [
+    {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"hSpd","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"vSpd","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"2.0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"walkSpd","tags":[],"resourceType":"GMObjectProperty",},
+  ],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
+  "name": "Obj_player_1",
   "tags": [],
   "resourceType": "GMObject",
 }
