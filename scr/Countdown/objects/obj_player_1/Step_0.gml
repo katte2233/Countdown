@@ -13,10 +13,4 @@ keyCrawl = keyboard_check_pressed(vk_control);
 inputDirection = point_direction(0,0,keyRight-keyLeft,keyDown-keyUp);
 inputMagnitude = (keyRight - keyLeft != 0)	||	(keyDown - keyUp != 0);
 
-//Movement
-hSpd = lengthdir_x(inputMagnitude * walkSpd, inputDirection);
-vSpd = lengthdir_y(inputMagnitude * walkSpd, inputDirection);
-
-PlayerCollision();
-
-image_angle = point_direction(x,y,mouse_x,mouse_y);
+script_execute(state);
