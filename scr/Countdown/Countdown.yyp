@@ -1,9 +1,11 @@
 {
   "resources": [
     {"id":{"name":"Scr_playerStates","path":"scripts/Scr_playerStates/Scr_playerStates.yy",},"order":2,},
+    {"id":{"name":"Spr_cursor","path":"sprites/Spr_cursor/Spr_cursor.yy",},"order":2,},
     {"id":{"name":"Scr_col","path":"scripts/Scr_col/Scr_col.yy",},"order":0,},
     {"id":{"name":"Til_col","path":"tilesets/Til_col/Til_col.yy",},"order":0,},
     {"id":{"name":"Spr_player_1","path":"sprites/Spr_player_1/Spr_player_1.yy",},"order":0,},
+    {"id":{"name":"Obj_cursor","path":"objects/Obj_cursor/Obj_cursor.yy",},"order":1,},
     {"id":{"name":"Spr_col","path":"sprites/Spr_col/Spr_col.yy",},"order":1,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":1,},
     {"id":{"name":"Obj_player_1","path":"objects/Obj_player_1/Obj_player_1.yy",},"order":0,},
@@ -47,7 +49,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.5.1.16",
+    "IDEVersion": "2022.6.0.23",
   },
   "resourceVersion": "1.5",
   "name": "Countdown",

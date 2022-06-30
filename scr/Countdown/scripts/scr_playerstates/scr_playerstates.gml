@@ -6,7 +6,7 @@ function playerStateFree(){
 	hSpd = lengthdir_x(inputMagnitude * walkSpd, inputDirection);
 	vSpd = lengthdir_y(inputMagnitude * walkSpd, inputDirection);
 
-	image_angle = point_direction(x,y,mouse_x,mouse_y);
+	image_angle = point_direction(x,y,Obj_cursor.x,Obj_cursor.y);
 
 	PlayerCollision();
 	
