@@ -1,3 +1,4 @@
+//Player Input
 keyLeft = keyboard_check(ord("A"));
 keyRight = keyboard_check(ord("D"));
 keyUp = keyboard_check(ord("W"));
@@ -16,7 +17,6 @@ inputMagnitude = (keyRight - keyLeft != 0)	||	(keyDown - keyUp != 0);
 hSpd = lengthdir_x(inputMagnitude * walkSpd, inputDirection);
 vSpd = lengthdir_y(inputMagnitude * walkSpd, inputDirection);
 
-x += hSpd;
-y += vSpd;
+PlayerCollision();
 
 image_angle = point_direction(x,y,mouse_x,mouse_y);
