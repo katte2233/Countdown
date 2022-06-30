@@ -17,3 +17,15 @@ function playerStateSprint(){
 	
 	
 }
+
+function playerStateRoll(){
+	
+	
+	
+}
+
+function playerStateCrawl(){
+	
+	
+	
+}
