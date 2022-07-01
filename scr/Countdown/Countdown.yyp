@@ -9,6 +9,7 @@
     {"id":{"name":"Spr_col","path":"sprites/Spr_col/Spr_col.yy",},"order":1,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":1,},
     {"id":{"name":"Obj_player_1","path":"objects/Obj_player_1/Obj_player_1.yy",},"order":0,},
+    {"id":{"name":"Spr_playerRoll_1","path":"sprites/Spr_playerRoll_1/Spr_playerRoll_1.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
