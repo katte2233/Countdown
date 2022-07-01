@@ -10,6 +10,13 @@ function playerStateFree(){
 
 	PlayerCollision();
 	
+	//Change State
+	if (keyRoll)
+	{
+		state = playerStateRoll;
+		rollDistanceRemaining = rollDistance;
+	}
+	
 }
 
 function playerStateSprint(){
@@ -20,7 +27,16 @@ function playerStateSprint(){
 
 function playerStateRoll(){
 	
+	//Movement
+	hSpd = lengthdir_x(rollSpd, direction);
+	vSpd = lengthdir_y(rollSpd, direction);
 	
+	rollDistanceRemaining = max(0, rollDistanceRemaining - rollSpd);
+	var _collided = PlayerCollision();
+	
+	//Update Sprite
+	sprite_index = spriteRoll;
+	var _totalFrames = sprite_get_number(sprite_index)/4;
 	
 }
 
