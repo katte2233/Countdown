@@ -7,7 +7,8 @@ function playerStateFree(){
 	vSpd = lengthdir_y(inputMagnitude * walkSpd, inputDirection);
 
 	image_angle = point_direction(x,y,Obj_cursor.x,Obj_cursor.y);
-
+	
+	//Collision
 	PlayerCollision();
 	
 	//Change State
@@ -26,6 +27,8 @@ function playerStateSprint(){
 }
 
 function playerStateRoll(){
+	
+	//Under konstruktion...
 	
 	//Movement
 	hSpd = lengthdir_x(rollSpd, direction);

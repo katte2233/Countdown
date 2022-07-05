@@ -5,11 +5,13 @@
     {"id":{"name":"Scr_col","path":"scripts/Scr_col/Scr_col.yy",},"order":0,},
     {"id":{"name":"Til_col","path":"tilesets/Til_col/Til_col.yy",},"order":0,},
     {"id":{"name":"Spr_player_1","path":"sprites/Spr_player_1/Spr_player_1.yy",},"order":0,},
+    {"id":{"name":"Scr_playerAnimateSprite","path":"scripts/Scr_playerAnimateSprite/Scr_playerAnimateSprite.yy",},"order":3,},
     {"id":{"name":"Obj_cursor","path":"objects/Obj_cursor/Obj_cursor.yy",},"order":1,},
     {"id":{"name":"Spr_col","path":"sprites/Spr_col/Spr_col.yy",},"order":1,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":1,},
     {"id":{"name":"Obj_player_1","path":"objects/Obj_player_1/Obj_player_1.yy",},"order":0,},
     {"id":{"name":"Spr_playerRoll_1","path":"sprites/Spr_playerRoll_1/Spr_playerRoll_1.yy",},"order":3,},
+    {"id":{"name":"Spr_playerWalk_1","path":"sprites/Spr_playerWalk_1/Spr_playerWalk_1.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

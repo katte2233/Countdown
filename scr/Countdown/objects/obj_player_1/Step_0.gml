@@ -14,3 +14,15 @@ inputDirection = point_direction(0,0,keyRight-keyLeft,keyDown-keyUp);
 inputMagnitude = (keyRight - keyLeft != 0)	||	(keyDown - keyUp != 0);
 
 script_execute(state);
+
+//Update Sprite Index
+var _oldSprite = sprite_index;
+if (inputMagnitude != 0)
+{
+	direction = inputDirection;
+	sprite_index = spriteWalk;
+} else sprite_index = spriteFree;
+if (_oldSprite != sprite_index) localFrame = 0;
+
+//Update Image_index
+PlayerAnimateSprite();
